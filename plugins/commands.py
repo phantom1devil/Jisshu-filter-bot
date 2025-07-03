@@ -159,17 +159,11 @@ async def start(client: Client, message):
                 )
             ],
             [
-                InlineKeyboardButton("• ᴅɪꜱᴀʙʟᴇ ᴀᴅꜱ •", callback_data="jisshupremium"),
-                InlineKeyboardButton("• ꜱᴘᴇᴄɪᴀʟ •", callback_data="special"),
+                InlineKeyboardButton("SUPPORT GROUP", url=f"https://t.me/+2QGud_Vb71gxMmU1"),
+                InlineKeyboardButton("MOVIE GROUP", url="https://t.me/+6AI6fkl-Yj84N2Jl"),
             ],
             [
-                InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data="help"),
-                InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"),
-            ],
-            [
-                InlineKeyboardButton(
-                    "• ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •", callback_data="earn"
-                )
+                InlineKeyboardButton("JOIN UPDATE CHANNEL", url="https://t.me/MovieHuntZone"),
             ],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
