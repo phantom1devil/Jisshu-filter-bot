@@ -116,7 +116,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}</b>"""
+   FILE_CAPTION = """<b>{file_name}</b>\n\n🔒 Join our channel to access more content:\n👉 <a href="https://t.me/+AOjcHxBEowBhYTRl">Join Channel</a>"""
 
     ALRT_TXT = """ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ sᴇᴀʀᴄʜɪɴɢ !?"""
 
