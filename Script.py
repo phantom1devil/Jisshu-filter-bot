@@ -124,7 +124,7 @@ Request group ➥
 「  https://t.me/+SzLcULYfU8s4OTM1 」
 
 Bot group 
-[ https://t.me/+AOjcHxBEowBhYTRl ]</b>"""
+[ https://t.me/+AOjcHxBEowBhYTRl ] </b>"""
 
     ALRT_TXT = """ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ sᴇᴀʀᴄʜɪɴɢ !?"""
 
