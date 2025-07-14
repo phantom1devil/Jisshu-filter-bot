@@ -116,15 +116,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-   FILE_CAPTION = """<b>{file_name}
-   ❤️‍🔥𝖩𝗈𝗂𝗇
- Update channel ➥ 「 https://t.me/MovieHuntZone 」
-
-Request group ➥
-「  https://t.me/+SzLcULYfU8s4OTM1 」
-
-Bot group 
-[ https://t.me/+AOjcHxBEowBhYTRl ] </b>"""
+   FILE_CAPTION = """<b>{file_name}</b>"""
 
     ALRT_TXT = """ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ sᴇᴀʀᴄʜɪɴɢ !?"""
 
