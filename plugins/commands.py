@@ -160,7 +160,7 @@ async def start(client: Client, message):
             ],
             [
                 InlineKeyboardButton("SUPPORT GROUP", url=f"https://t.me/+2QGud_Vb71gxMmU1"),
-                InlineKeyboardButton("MOVIE GROUP", url="https://t.me/+6AI6fkl-Yj84N2Jl"),
+                InlineKeyboardButton("MOVIE GROUP", url="https://t.me/+AOjcHxBEowBhYTRl"),
             ],
             [
                 InlineKeyboardButton("JOIN UPDATE CHANNEL", url="https://t.me/MovieHuntZone"),
