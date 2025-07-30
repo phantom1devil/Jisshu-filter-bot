@@ -53,7 +53,7 @@ FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://phantombot:phantom
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-4834107012"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002501807015"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
 request_channel = environ.get("REQUEST_CHANNEL", "-1002131994944")
 REQUEST_CHANNEL = (
