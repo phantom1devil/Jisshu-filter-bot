@@ -136,10 +136,10 @@ START_IMG = (
 FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg")
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/hkX.jpg")).split()
 PAYPICS = (
-    environ.get("PAYPICS", "https://envs.sh/hkX.jpg")
+    environ.get("PAYPICS", "https://files.catbox.moe/feozmf.jpg")
 ).split()
 SUBSCRIPTION = environ.get(
-    "SUBSCRIPTION", "https://envs.sh/hkX.jpg"
+    "SUBSCRIPTION", "https://files.catbox.moe/feozmf.jpg"
 )
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 
