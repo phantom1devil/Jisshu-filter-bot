@@ -134,9 +134,9 @@ START_IMG = (
     )
 ).split()
 FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg")
-REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split()
+REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/hkX.jpg")).split()
 PAYPICS = (
-    environ.get("PAYPICS", "https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg")
+    environ.get("PAYPICS", "https://envs.sh/hkX.jpg")
 ).split()
 SUBSCRIPTION = environ.get(
     "SUBSCRIPTION", "https://envs.sh/hkX.jpg"
