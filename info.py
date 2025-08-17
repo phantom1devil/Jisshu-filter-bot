@@ -16,8 +16,8 @@ def is_enabled(value, default):
 
 # Main
 SESSION = environ.get("SESSION", "Media_search")
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
+API_ID = int(environ.get("API_ID", "20601073"))
+API_HASH = environ.get("API_HASH", "a99848cf240773df26d3efad8195c194")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 PORT = environ.get("PORT", "8082")
 
@@ -29,7 +29,7 @@ ADMINS = [
 OWNER_USERNAME = environ.get(
     "OWNER_USERNAME", "IM_JISSHU"
 )  # without @ or https://t.me/
-USERNAME = environ.get("USERNAME", "")  # ADMIN USERNAME
+USERNAME = environ.get("USERNAME", "5685076977")  # ADMIN USERNAME
 
 # Database Channel
 CHANNELS = [
@@ -40,7 +40,7 @@ CHANNELS = [
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", ""))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", ""))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "1002923390432"))
 LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", ""))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", ""))
 
