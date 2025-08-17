@@ -16,20 +16,20 @@ def is_enabled(value, default):
 
 # Main
 SESSION = environ.get("SESSION", "Media_search")
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
+API_ID = int(environ.get("API_ID", "20601073"))
+API_HASH = environ.get("API_HASH", "a99848cf240773df26d3efad8195c194")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 PORT = environ.get("PORT", "8082")
 
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "5672857559").split()
+    for admin in environ.get("ADMINS", "5685076977").split()
 ]
 OWNER_USERNAME = environ.get(
     "OWNER_USERNAME", "IM_JISSHU"
 )  # without @ or https://t.me/
-USERNAME = environ.get("USERNAME", "")  # ADMIN USERNAME
+USERNAME = environ.get("USERNAME", "https://t.me/Phantom_Devil")  # ADMIN USERNAME
 
 # Database Channel
 CHANNELS = [
@@ -45,12 +45,12 @@ LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", ""))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", ""))
 
 # MongoDB
-DATABASE_URI = environ.get("DATABASE_URI", "")
-DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
+DATABASE_URI = environ.get("DATABASE_URI", "mondo db-mongodb+srv://sahilpatil23347:tnCYUZ8d1RCYGHgH@cluster0.chj8dcu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get("DATABASE_NAME", "sahilpatil23347")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "")
-COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
+FILES_DATABASE = environ.get("FILES_DATABASE", "-1002137768832")
+COLLECTION_NAME = environ.get("COLLECTION_NAME", "phantombot")
 
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1001864434358"))
