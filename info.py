@@ -18,7 +18,7 @@ def is_enabled(value, default):
 SESSION = environ.get("SESSION", "Media_search")
 API_ID = int(environ.get("API_ID", "20601073"))
 API_HASH = environ.get("API_HASH", "a99848cf240773df26d3efad8195c194")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7935431669:AAFrpBixyxhvxk0lyqPXZgF6B8I8sC9UegE")
+BOT_TOKEN = environ.get("BOT_TOKEN", "0")
 PORT = environ.get("PORT", "8082")
 
 # Owners
@@ -34,7 +34,7 @@ USERNAME = environ.get("USERNAME", "#Phantom_Devil")  # ADMIN USERNAME
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "-1002137768832").split()
+    for ch in environ.get("CHANNELS", "1002137768832").split()
 ]
 
 # ForceSub Channel & Log Channels
@@ -45,11 +45,11 @@ LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "0"))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "0"))
 
 # MongoDB
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://sahilpatil23347:tnCYUZ8d1RCYGHgH@cluster0.chj8dcu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://BOT2:<BOT2@cluster0.apdnapl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get("DATABASE_NAME", "phantombot")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://sahilpatil23347:tnCYUZ8d1RCYGHgH@cluster0.chj8dcu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://BOT2:<BOT2@cluster0.apdnapl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 
 # Other Channel's
