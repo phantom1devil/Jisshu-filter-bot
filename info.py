@@ -34,22 +34,22 @@ USERNAME = environ.get("USERNAME", "#Phantom_Devil")  # ADMIN USERNAME
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "-1002230211690").split()
+    for ch in environ.get("CHANNELS", "-1002137768832").split()
 ]
 
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002106653809"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "0"))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002866064533"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002923390432"))
 LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "0"))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "0"))
 
 # MongoDB
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://phantombot:phantombot@phantombot.ry0ppb4.mongodb.net/?retryWrites=true&w=majority&appName=phantombot")
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://sahilpatil23347:tnCYUZ8d1RCYGHgH@cluster0.chj8dcu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get("DATABASE_NAME", "phantombot")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://phantombot:phantombot@phantombot.ry0ppb4.mongodb.net/?retryWrites=true&w=majority&appName=phantombot")
+FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://sahilpatil23347:tnCYUZ8d1RCYGHgH@cluster0.chj8dcu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 
 # Other Channel's
