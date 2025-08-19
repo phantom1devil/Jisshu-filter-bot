@@ -18,7 +18,7 @@ def is_enabled(value, default):
 SESSION = environ.get("SESSION", "Media_search")
 API_ID = int(environ.get("API_ID", "20601073"))
 API_HASH = environ.get("API_HASH", "a99848cf240773df26d3efad8195c194")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7935431669:AAFrpBixyxhvxk0lyqPXZgF6B8I8sC9UegE")
+BOT_TOKEN = environ.get("BOT_TOKEN", "0")
 PORT = environ.get("PORT", "8082")
 
 # Owners
@@ -34,7 +34,7 @@ USERNAME = environ.get("USERNAME", "#Phantom_Devil")  # ADMIN USERNAME
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "-1002230211690").split()
+    for ch in environ.get("CHANNELS", "1002137768832").split()
 ]
 
 # ForceSub Channel & Log Channels
@@ -45,11 +45,11 @@ LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "0"))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "0"))
 
 # MongoDB
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://phantombot:phantombot@phantombot.ry0ppb4.mongodb.net/?retryWrites=true&w=majority&appName=phantombot")
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://BOT2:<BOT2@cluster0.apdnapl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get("DATABASE_NAME", "phantombot")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://phantombot:phantombot@phantombot.ry0ppb4.mongodb.net/?retryWrites=true&w=majority&appName=phantombot")
+FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://BOT2:<BOT2@cluster0.apdnapl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 
 # Other Channel's
@@ -154,7 +154,7 @@ IS_SEND_MOVIE_UPDATE = is_enabled(
 MAX_BTN = int(environ.get("MAX_BTN", "8"))
 AUTO_DELETE = is_enabled("AUTO_DELETE", True )
 DELETE_TIME = int(environ.get("DELETE_TIME", 1800))
-IMDB = is_enabled("IMDB", True)
+IMDB = is_enabled("IMDB", False)
 FILE_CAPTION = environ.get("FILE_CAPTION", f"{script.FILE_CAPTION }")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
